@@ -1,0 +1,19 @@
+#code-upload__submit {
+  font-family: monospace;
+  font-size: 15px;
+  padding: 10px;
+  background-color: #ff9bd0;
+  border: none;
+  position: fixed;
+  right: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+#code-upload__submit:hover {
+  background-color: #ec6cb7;
+}
+
+#code-upload__input {
+  outline: none;
+}

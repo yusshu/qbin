@@ -1,0 +1,27 @@
+{
+  "name": "pastes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "nodemon out/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/agenda": "^2.0.9",
+    "@types/express": "^4.17.9",
+    "@types/mongoose": "^5.10.1",
+    "@types/node": "^14.14.9",
+    "agenda": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "celebrate": "^13.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0",
+    "tslib": "^2.0.3"
+  }
+}

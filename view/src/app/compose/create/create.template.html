@@ -1,0 +1,8 @@
+<div class="content">
+
+  <form id="code-upload" #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <button type="submit" id="code-upload__submit">Submit</button>
+    <textarea class="code" (change)="setData($event)" id="code-upload__input"></textarea>
+  </form>
+
+</div>
